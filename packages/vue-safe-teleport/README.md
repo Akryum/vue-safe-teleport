@@ -90,3 +90,29 @@ Will render:
 ```html
 <span id="target"></span>
 ```
+
+## Migration example
+
+Before:
+
+```vue
+<template>
+  <div id="target" />
+
+  <Teleport to="#target">
+    <div>Teleported to target</div>
+  </Teleport>
+</template>
+```
+
+After:
+
+```vue
+<template>
+  <TeleportTarget id="target" />
+
+  <SafeTeleport to="#target">
+    <div>Teleported to target</div>
+  </SafeTeleport>
+</template>
+```
