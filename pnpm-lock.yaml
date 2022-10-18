@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@akryum/sheep': ^0.4.2
+      '@akryum/sheep': ^0.4.3
       '@typescript-eslint/eslint-plugin': ^5.18.0
       '@typescript-eslint/parser': ^5.18.0
       '@vue/eslint-config-standard': ^6.1.0
@@ -19,7 +19,7 @@ importers:
       typescript: ^4.8.4
       vue-eslint-parser: ^9.0.3
     devDependencies:
-      '@akryum/sheep': 0.4.2
+      '@akryum/sheep': 0.4.3
       '@typescript-eslint/eslint-plugin': 5.40.1_ukgdydjtebaxmxfqp5v5ulh64y
       '@typescript-eslint/parser': 5.40.1_z4bbprzjrhnsfa24uvmcbu7f5q
       '@vue/eslint-config-standard': 6.1.0_pa7ux7yat2e6caxfcufxam3gxi
@@ -67,8 +67,8 @@ importers:
 
 packages:
 
-  /@akryum/sheep/0.4.2:
-    resolution: {integrity: sha512-+Yq1UJ0JqXVMGC+gq57agAkBQ3YgyYjoNIhLDGC5oYaAvfEPXAro0EAZvtFG9SmrEgHHdtPY01BTUnyfdS9ScQ==}
+  /@akryum/sheep/0.4.3:
+    resolution: {integrity: sha512-HQD1sgyWlsPkXlW88PN5LmPa/aAOC8o842OMPrYYL79MEmkjjDKMtdfdEK2qHxRd/YTIWN1bAXjp+EsV9b5WLg==}
     hasBin: true
     dependencies:
       conventional-changelog-cli: 2.2.2
