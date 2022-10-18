@@ -1,0 +1,44 @@
+{
+  "name": "vue-safe-teleport-monorepo",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "repository": {
+    "url": "https://github.com/Akryum/vue-safe-teleport.git",
+    "type": "git"
+  },
+  "scripts": {
+    "lint": "eslint . --ext js,vue,ts",
+    "build": "pnpm run -r build",
+    "watch": "pnpm run build && pnpm run -r --parallel --filter \"./packages/**\" watch",
+    "test": "pnpm run -r --parallel --filter \"./packages/**\" test",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && sheep release -b main"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.13.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "typescript": "^4.8.4",
+    "vue-eslint-parser": "^9.0.3"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack"
+      ],
+      "allowedVersions": {
+        "eslint": "*",
+        "eslint-plugin-promise": "*",
+        "eslint-plugin-vue": "*"
+      }
+    }
+  }
+}

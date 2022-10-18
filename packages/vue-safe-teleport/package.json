@@ -1,0 +1,31 @@
+{
+  "name": "vue-safe-teleport",
+  "version": "0.0.0",
+  "description": "Recommended for teleporting inside a Vue app",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Akryum/vue-safe-teleport.git",
+    "type": "git",
+    "directory": "packages/vue-safe-teleport"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc -d",
+    "watch": "tsc -d -w --sourceMap"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4",
+    "vue": "^3.2.41"
+  }
+}
