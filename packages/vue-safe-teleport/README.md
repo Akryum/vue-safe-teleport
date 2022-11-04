@@ -51,7 +51,7 @@ Use the `SafeTeleport` component instead of `Teleport` (it has the same props):
 </template>
 ```
 
-The content will be teleport as soon as the corresponding target is mounted.
+The content will be teleported as soon as the corresponding target is mounted.
 
 You can also use `SafeTeleport` without `TeleportTarget`, in that case it will work like the builtin `Teleport` but will wait one frame if the target DOM element isn't available yet:
 
