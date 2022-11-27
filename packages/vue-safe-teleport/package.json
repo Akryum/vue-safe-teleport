@@ -15,6 +15,7 @@
       "default": "./dist/index.js"
     }
   },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc -d",
     "watch": "tsc -d -w --sourceMap"
