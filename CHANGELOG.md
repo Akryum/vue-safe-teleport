@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/Akryum/vue-safe-teleport/compare/v0.1.1...v0.1.2) (2023-02-13)
+
+
+### Bug Fixes
+
+* add extensions to imports ([bbf62f0](https://github.com/Akryum/vue-safe-teleport/commit/bbf62f0180f1aa341b5c6679abe31b42e62058a3))
+
+
+
 ## [0.1.1](https://github.com/Akryum/vue-safe-teleport/compare/v0.1.0...v0.1.1) (2022-11-27)
 
 
