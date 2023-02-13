@@ -1,10 +1,10 @@
 import { reactive } from 'vue'
-import { PROVIDE_TELEPORT_TARGETS } from './const'
-import { SafeTeleport } from './SafeTeleport'
-import { TeleportTarget } from './TeleportTarget'
+import { PROVIDE_TELEPORT_TARGETS } from './const.js'
+import { SafeTeleport } from './SafeTeleport.js'
+import { TeleportTarget } from './TeleportTarget.js'
 
-export { SafeTeleport } from './SafeTeleport'
-export { TeleportTarget } from './TeleportTarget'
+export { SafeTeleport } from './SafeTeleport.js'
+export { TeleportTarget } from './TeleportTarget.js'
 
 export default {
   install (app) {

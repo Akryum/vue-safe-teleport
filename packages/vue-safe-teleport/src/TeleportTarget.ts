@@ -1,5 +1,5 @@
-import { computed, defineComponent, h, inject, onBeforeUnmount, onMounted, watch } from 'vue'
-import { PROVIDE_TELEPORT_TARGETS, TeleportTargets } from './const'
+import { computed, defineComponent, h, inject, onBeforeUnmount, onMounted } from 'vue'
+import { PROVIDE_TELEPORT_TARGETS, TeleportTargets } from './const.js'
 
 export const TeleportTarget = defineComponent({
   name: 'TeleportTarget',
